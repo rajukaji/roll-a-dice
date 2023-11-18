@@ -1,13 +1,22 @@
-let count, increase, reset, decrease;
-document.getElementById().value = function(){
+
+let count = 0;
+document.getElementById("decrease").onclick = function(){
+    
+    count -= 1;
+    document.getElementById("work").innerHTML = count;//display with work id of label
+
+};
+
+document.getElementById("reset").onclick = function(){
+    
+   
     count = 0;
-    reset = 0;
-    increase = ++count;
-    decrease = --count;
-    document.getElementById().innerHTML = increase;
+    document.getElementById("work").innerHTML = count;//display with work id of label
 
-    document.getElementById().innerHTML = decrease;
+};
 
-    document.getElementById().innerHTML = reset;
-
+document.getElementById("increase").onclick = function(){
+    
+    count++;
+    document.getElementById("work").innerHTML = count;//display with work id of label
 };
