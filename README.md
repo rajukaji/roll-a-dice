@@ -1,4 +1,6 @@
 # roll-a-dice
+#https://rajukaji.github.io/roll-a-dice/
+
 js and html
 # manipulateTextThroughIdWithJavaScript
 
@@ -6,4 +8,3 @@ js and html
 
 # increase or decrease the count.
 
-#https://rajukaji.github.io/roll-a-dice/
